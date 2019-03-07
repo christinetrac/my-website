@@ -1,2 +1,2 @@
 # my-website
-A personal website (my first time web developing!)
+A personal website that I am developing :) (my first time web developing!)
