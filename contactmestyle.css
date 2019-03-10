@@ -1,0 +1,89 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+.header{
+    position: relative;
+    margin-left: 535px;
+    margin-right: 540px;
+    padding: 15px 50px 175px 50px;
+    background-color: white;
+}
+
+.header img{
+    /* colour is f05a82 */
+    position: absolute; 
+    overflow: hidden;
+    width: 175px;
+    height: 170px;
+
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.header .front-image{
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.header:hover > .front-image{
+    opacity: 0;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: white;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.navbar li{
+	display: inline;
+}
+
+.navbar a{
+    color: black;
+    text-align: center;
+    padding: 13px 30px;
+    text-decoration: none;
+    font-family: 'Alegreya Sans';
+
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: #f05a82;
+}
+
+.footer{
+    padding: 25px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer a{
+    color: #f05a82;
+    font-family: 'Alegreya Sans';
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 2;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+.footer a:hover{
+    color: cornflowerblue;
+}
