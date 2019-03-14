@@ -4,15 +4,24 @@
         <title>Contact Me!</title>
         <meta charset = "UTF-8">
         <link rel = "stylesheet" type = "text/css" href = "contactmestyle.css">
-        <link href = 'https://fonts.googleapis.com/css?family=Alegreya Sans' rel = "stylesheet">
-        <link href = 'https://fonts.googleapis.com/css?family=Great Vibes' rel = "stylesheet">
+        <link href = 'https://fonts.googleapis.com/css?family=Alegreya Sans'  rel = "stylesheet">
+        <link href = 'https://fonts.googleapis.com/css?family=Great Vibes'  rel = "stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="contactmescript.js"></script>
     </head>
 
-    <body>  
+    <body>
+        <div class="preloader-wrapper">
+            <div class="preloader">
+                <img src="preloader/loading8.gif">
+            </div>
+        </div>
+
         <a href = "mywebsite.html">    
             <div class = "header">
-                <img class = "front-image" src = "headlogo2.jpg"/>
-                <img class = "back-image" src = "headlogopink2.jpg"/>
+                <img class = "front-image" src = "images/headlogo2.jpg"/>
+                <img class = "back-image" src = "images/headlogopink2.jpg"/>
             </div>
         </a>
 
@@ -22,6 +31,26 @@
            <li><a href = "artgallery.html">ART GALLERY</a></li>
            <li><a href = "contactme.html">CONTACT ME</a></li>
         </ul>
+
+        <!--- <div class = "container"> -->
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                      <label for="mail">E-mail:</label>
+                      <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                      <label for="msg">Message:</label>
+                      <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                <div class = "button">
+                    <input type = "submit" value = "Submit">
+                </div>
+            </form>
+       <!---- </div> ---->
 
         <div class = "footer">
             <a href = "https://www.linkedin.com/in/christine-trac-130b75180/">CONNECT WITH ME ON LINKEDIN</a>
