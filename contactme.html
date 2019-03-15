@@ -32,30 +32,27 @@
            <li><a href = "contactme.html">CONTACT ME</a></li>
         </ul>
 
-        <!--- <div class = "container"> -->
-                <form action="/my-handling-form-page" method="post">
-                    <div>
-                      <label for="name">Name:</label>
-                      <input type="text" id="name" name="user_name">
-                    </div>
-                    <div>
-                      <label for="mail">E-mail:</label>
-                      <input type="email" id="mail" name="user_mail">
-                    </div>
-                    <div>
-                      <label for="msg">Message:</label>
-                      <textarea id="msg" name="user_message"></textarea>
-                    </div>
-                <div class = "button">
-                    <input type = "submit" value = "Submit">
-                </div>
-            </form>
-       <!---- </div> ---->
-
-        <div class = "footer">
-            <a href = "https://www.linkedin.com/in/christine-trac-130b75180/">CONNECT WITH ME ON LINKEDIN</a>
-            <br>
-            <a href = "https://github.com/christinetrac">CHECK OUT MY GITHUB</a>
-        </div>
+        <div class = container>
+            <div class = "contact-title">
+                <br><br><br>
+                <h1>Shoot me a message!</h1>
+            </div>
+            <div class = "contact-form">
+                <form id = "contact-form" method = "post" action = "">
+                    <input name = "name" type = "text" class = "form-control" placeholder="Name" required>
+                    <br>
+                    <input name = "email" type = "email" class = "form-control" placeholder="Email" required>
+                    <br>
+                    <textarea name = "message" class = "form-control" placeholder="Message" rows = "6" required></textarea>
+                    <br>
+                    <input type = "submit" class = "form-control submit" value = "Submit">
+                </form>
+            </div>
+            <div class = "footer">
+                <a href = "https://www.linkedin.com/in/christine-trac-130b75180/">CONNECT WITH ME ON LINKEDIN</a>
+                <br>
+                <a href = "https://github.com/christinetrac">CHECK OUT MY GITHUB</a>
+            </div>
+    </div>
     </body>
 </html>
