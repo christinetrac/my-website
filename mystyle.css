@@ -35,7 +35,7 @@ body, html{
     position: relative;
     margin-left: 535px;
     margin-right: 540px;
-    padding: 15px 50px 175px 50px;
+    padding: 20px 50px 185px 50px;
     background-color: white;
 }
 
@@ -43,7 +43,7 @@ body, html{
     /* colour is f05a82 */
     position: absolute; 
     overflow: hidden;
-    width: 175px;
+    width: 240px;
     height: 170px;
 
     display: inline-block;
@@ -114,7 +114,7 @@ body, html{
     text-shadow: 3px 2px 2px peachpuff;
     font-family: 'Great Vibes';
     font-size: 40px;
-    margin-top: 400px;
+    margin-top: 410px;
     transform: translate(-50%, -50%);
     left: 50%;
 }
