@@ -11,7 +11,7 @@ body, html{
     position: relative;
     margin-left: 535px;
     margin-right: 540px;
-    padding: 15px 50px 175px 50px;
+    padding: 20px 50px 185px 50px;
     background-color: white;
 }
 
@@ -19,7 +19,7 @@ body, html{
     /* colour is f05a82 */
     position: absolute; 
     overflow: hidden;
-    width: 175px;
+    width: 240px;
     height: 170px;
 
     display: inline-block;
