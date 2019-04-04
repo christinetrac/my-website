@@ -91,6 +91,24 @@ body, html{
     color: #f05a82;
 }
 
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 500px){
+    .column {
+      width: 100%;
+    }
+}
+
 .footer{
     padding: 25px;
     background-color: white;
