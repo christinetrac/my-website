@@ -91,26 +91,73 @@ body, html{
     color: #f05a82;
 }
 
-.column{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-.row::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
 @media screen and (max-width: 500px){
     .column {
       width: 100%;
     }
+} 
+
+.art1{
+    margin-left: 125px;
+    margin-top: 60px;
+}
+
+.art1 img{
+    box-shadow: 30px 30px rgb(247, 208, 219);
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: 1px solid red;
+    outline-offset: 15px;
+    float: left;
+}
+
+.art1 h1{
+    float: right;
+    margin-right: 25%;
+    margin-top: 22%;
+}
+
+.art2{
+    padding-top: 50%;
+    margin-right: 125px;
+}
+
+.art2 img{
+    box-shadow: 30px 30px rgb(247, 208, 219);
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: 1px solid red;
+    outline-offset: 15px;
+    float: right;
+}
+
+.art2 h1{
+    float: left;
+    margin-left: 25%;
+    margin-top: 22%
+}
+
+.art3{
+    margin-left: 125px;
+    padding-top: 50%;
+}
+
+.art3 img{
+    box-shadow: 30px 30px rgb(247, 208, 219);
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+
+.art3 h1{
+    float: right;
+    margin-right: 25%;
+    margin-top: 22%;
 }
 
 .footer{
-    padding: 25px;
+    padding: 90px 0;
     background-color: white;
     margin-left: 20px;
     margin-right: 20px;
