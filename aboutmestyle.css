@@ -30,8 +30,6 @@ body.preloader-site {
 
 body, html{
     height: 100%;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .header{
@@ -96,20 +94,30 @@ body, html{
 
 /*parallax scrolling stuff*/
 .slide1{
+    margin-top: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 70%;
     height: 100vh;
-    background-image: url(images/clouds.jpg);
+    background-image: url(images/clouds_edited.png);
     background-attachment: fixed;
     background-size: cover;
+    outline: 3px solid white;
+    outline-offset: -40px;
 }
 
 .slide1 h2{
     font-family: 'Alegreya Sans';
-    font-size: 40px;
+    font-size: 18px;
+    outline: 2px solid white;
     color: white;
+    padding: 30px;
+    word-spacing: 0.1em;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+    box-shadow: -15px -15px white;
 }
 
 .slide2{
@@ -119,31 +127,70 @@ body, html{
     width: 100%;
     height: 100vh;
     background-color:white;
+    text-align: justify;
 }
 
-.slide2 h2{
-    font-family: 'Alegreya Sans';
-    font-size: 30px;
+.box1{
+    background-color: rgb(247, 208, 219);
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    box-shadow: 25px 25px #c7efff;
+    outline: 1px solid salmon;
+    outline-offset: 8px;
+}
+
+.slide2 table{
+    position: absolute;
+    border-collapse: collapse;
+    width: 40%;
+    outline-offset: 10px;
+    top: 135vh;
+    float: left;
+    margin-top: 20%;
+}
+
+.slide2 th{
+    font-size: 32px;
+    text-shadow: 2px 2px pink;
+}
+
+.slide2 td{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+    z-index: 1;
+    position: absolute;
+    padding: 20px;
+    align-content: center;
+    border: 1px solid black;
+    font-size: 14px;
 }
 
 .slide3{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 70%;
     height: 100vh;
-    background-image: url(images/heart.jpg);
+    background-image: url(images/heart_edited.png);
     background-attachment: fixed;
     background-size: cover;
+    outline: 3px solid white;
+    outline-offset: -40px;
 }
 
 .slide3 h2{
-    text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    color: white;
     font-family: 'Alegreya Sans';
-    font-size: 32px;
+    font-size: 16px;
+    outline: 2px solid white;
+    color: white;
+    padding: 30px;
+    word-spacing: 0.1em;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+    box-shadow: -15px -15px white;
+    line-height: 1.5em;
 }
 
 .slide4{
@@ -152,17 +199,48 @@ body, html{
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color:white;
+    text-align: justify;
 }
 
-.slide4 h2{
-    font-family: 'Alegreya Sans';
-    font-size: 30px;
+.slide4 table{
+    position: absolute;
+    border-collapse: collapse;
+    width: 40%;
+    outline-offset: 10px;
+    top: 340vh;
+    margin-top: 20%;
+    float: left;
+}
+
+.slide4 th{
+    font-size: 32px;
+    text-shadow: 2px 2px pink;
+}
+
+.slide4 td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.8em;
+    z-index: 1;
+    position: absolute;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.box2{
+    background-color: rgb(247, 208, 219);
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    box-shadow: 25px 25px #c7efff;
+    outline: 1px solid salmon;
+    outline-offset: 8px;
 }
 
 /*footer stuff*/
 .footer{
-    padding: 25px 0;
+    padding: 35px 50px;
     background-color: white;
 }
 
