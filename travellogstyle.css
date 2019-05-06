@@ -33,8 +33,8 @@ body, html{
 
 .header{
     position: relative;
-    margin-left: 535px;
-    margin-right: 540px;
+    margin-left: 45%;
+    margin-right: 45%;
     padding: 20px 50px 185px 50px;
     background-color: white;
 }
@@ -89,6 +89,16 @@ body, html{
 .navbar a:hover{
     background-color: white;
     color: #f05a82;
+}
+
+.message{
+    padding: 200px 0;
+    text-align: center;
+    font-family: 'Alegreya Sans';
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #f05a82;
+    text-shadow: 3px 3px pink;
 }
 
 .footer{
